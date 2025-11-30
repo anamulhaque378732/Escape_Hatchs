@@ -1,8 +1,9 @@
 import { useRef } from "react";
+import ForwardedMyInput from "./MyInput";
 
 const FocusingATextInput = () => {
 
-    const inputRef = useRef();
+    const inputRef = useRef(null);
 
     const handleClick = () => {
         inputRef.current.focus();
@@ -14,7 +15,9 @@ const FocusingATextInput = () => {
     return (
         <div>
 
-            <input ref={inputRef} type="text" name="" id="" />
+            <ForwardedMyInput type="text"
+
+                ref={inputRef} />
             <button onClick={handleClick}>Focus the input</button>
 
 

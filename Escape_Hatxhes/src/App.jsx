@@ -1,6 +1,5 @@
 import './App.css'
-import ScrollingToAnElement from './Component/ScrollingToAnElement'
-import StopWatch from './Component/StopWatch'
+import TodoList from './Component/TodoList'
 
 function App() {
 
@@ -9,13 +8,14 @@ function App() {
     <>
       {/* <ReferencingValuesWithRefs /> */}
 
-      <StopWatch />
+      {/* <StopWatch /> */}
       {/* <ManipulatingTheDOM /> */}
       {/* <Focus /> */}
       {/* <CatFriends /> */}
       {/* <FocusingATextInput /> */}
-      <ScrollingToAnElement />
-
+      {/* <ScrollingToAnElement /> */}
+      {/* <Counter /> */}
+      <TodoList />
     </>
   )
 }
