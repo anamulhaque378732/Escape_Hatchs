@@ -1,5 +1,5 @@
 import './App.css';
-import ChatRoom from './Component/ChatRoom';
+import FetchApi from './Component/Fetch/FetchApi';
 
 
 
@@ -18,12 +18,12 @@ function App() {
       {/* <TodoList /> */}
       {/* <MyEffect /> */}
       {/* <MyEffect2 /> */}
-      <ChatRoom />
+      {/* <ChatRoom /> */}
 
-
-
-
-
+      {/* <Dialog /> */}
+      {/* <SubscribingToEvent /> */}
+      {/* <Animation /> */}
+      <FetchApi postId={1} />
     </>
   )
 }
