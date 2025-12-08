@@ -1,5 +1,5 @@
 import './App.css';
-import FetchApi from './Component/Fetch/FetchApi';
+import Put from './Component/PuttingItAllTogether/Put';
 
 
 
@@ -23,7 +23,8 @@ function App() {
       {/* <Dialog /> */}
       {/* <SubscribingToEvent /> */}
       {/* <Animation /> */}
-      <FetchApi postId={1} />
+      {/* <FetchApi postId={1} /> */}
+      <Put />
     </>
   )
 }
