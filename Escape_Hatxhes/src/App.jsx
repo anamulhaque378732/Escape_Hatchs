@@ -1,5 +1,5 @@
 import './App.css';
-import Put from './Component/PuttingItAllTogether/Put';
+import NeedToEffect from './Component/NeedToEffect/NeedToEffect';
 
 
 
@@ -24,7 +24,8 @@ function App() {
       {/* <SubscribingToEvent /> */}
       {/* <Animation /> */}
       {/* <FetchApi postId={1} /> */}
-      <Put />
+      {/* <Put /> */}
+      <NeedToEffect />
     </>
   )
 }
