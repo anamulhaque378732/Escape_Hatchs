@@ -1,5 +1,6 @@
 import './App.css';
-import NeedToEffect from './Component/NeedToEffect/NeedToEffect';
+import NotNeedToEffect from './Components/NotNeedToEffect/NotNeedToEffect';
+
 
 
 
@@ -25,7 +26,13 @@ function App() {
       {/* <Animation /> */}
       {/* <FetchApi postId={1} /> */}
       {/* <Put /> */}
-      <NeedToEffect />
+
+
+
+      {/* <NeedToEffect /> */}
+      <NotNeedToEffect />
+
+
     </>
   )
 }
