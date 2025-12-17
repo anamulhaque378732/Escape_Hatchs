@@ -1,9 +1,17 @@
 
-const Example8 = () => {
-    return (
-        <div>
 
-        </div>
+const Example8 = ({ data }) => {
+
+
+
+
+    return (
+        <>
+            <div>
+
+                <h1>Example 8 : {data}</h1>
+            </div>
+        </>
     );
 };
 
