@@ -1,10 +1,9 @@
-import useSomeApi from "../../Utils/SomeData";
-import Example8 from "./Example8";
+import Example9 from "./Example9";
 
 const NotNeedEffect = () => {
     //const [isOn, setIsOn] = useState(false); //  for 7 
     // const [data, setData] = useState(null); //  for 8 
-    const data = useSomeApi();
+    //const data = useSomeApi();// for 8
 
 
 
@@ -22,8 +21,10 @@ const NotNeedEffect = () => {
             /> */}
             {/* Example -8 */}
 
-            <p> {data && data}</p>
-            <Example8 data={data} />
+            {/* <p> {data && data}</p>
+            <Example8 data={data} /> */}
+
+            <Example9 />
 
         </div>
     );

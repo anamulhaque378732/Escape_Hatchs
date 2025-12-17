@@ -1,5 +1,5 @@
 import './App.css';
-import NotNeedEffect from './Components/NotNeedEffect/NotNeedEffect';
+import FetchingData from './Components/FatchingData/FetchingData';
 
 
 
@@ -31,7 +31,9 @@ function App() {
 
       {/* <NeedToEffect /> */}
       {/* <NotNeedToEffect /> */}
-      <NotNeedEffect />
+      {/* <NotNeedEffect /> */}
+      <FetchingData />
+
 
     </>
   )
