@@ -1,5 +1,5 @@
 import './App.css';
-import NotNeedToEffect from './Components/NotNeedToEffect/NotNeedToEffect';
+import NotNeedEffect from './Components/NotNeedEffect/NotNeedEffect';
 
 
 
@@ -30,8 +30,8 @@ function App() {
 
 
       {/* <NeedToEffect /> */}
-      <NotNeedToEffect />
-
+      {/* <NotNeedToEffect /> */}
+      <NotNeedEffect />
 
     </>
   )
